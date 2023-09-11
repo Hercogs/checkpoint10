@@ -22,7 +22,7 @@ using nav_msgs::msg::Odometry;
 #define II_limit 0.7
 #define II_damping 0.95
 
-#define MAX_SPEED 1.2 // [rad/sec]
+#define MAX_SPEED 1.1 // [rad/sec]
 
 class TurnController : public rclcpp::Node {
 public:
